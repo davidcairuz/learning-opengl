@@ -13,7 +13,7 @@
                 "-L${workspaceFolder}/lib",
                 "${workspaceFolder}/lib/libglfw.3.3.dylib",
                 "${workspaceFolder}/src/*.cpp",
-                // "${workspaceFolder}/glad.c",
+                "${workspaceFolder}/src/glad.c",
                 "-o",
                 "${workspaceFolder}/app",
                 "-framework",
